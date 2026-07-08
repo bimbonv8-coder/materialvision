@@ -23,7 +23,7 @@
     "prebuild": "EXPO_NO_TELEMETRY=1 npx expo prebuild",
     "prebuild:clean": "EXPO_NO_TELEMETRY=1 npx expo prebuild --clean"
   },
-  "dependencies": {
+  "dependencies": { "babel-preset-expo": "~54.0.7"
     "@blinkdotnew/mobile-ui": "2.0.1",
     "@blinkdotnew/sdk": "^2.7.0",
     "@expo/vector-icons": "^15.0.3",
