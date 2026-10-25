@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "EXPO_NO_TELEMETRY=1 npx expo export --platform web && vite preview --port 3000",
+    "predev": "EXPO_NO_TELEMETRY=1 npx expo export --platform web",
+    "dev": "vite --port 3000 --host",
     "dev:expo": "EXPO_NO_TELEMETRY=1 npx expo start --web --port 3000",
     "start": "EXPO_NO_TELEMETRY=1 npx expo start",
     "start:web": "EXPO_NO_TELEMETRY=1 npx expo start --web",
